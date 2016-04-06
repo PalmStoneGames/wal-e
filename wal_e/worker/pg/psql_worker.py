@@ -6,7 +6,7 @@ from subprocess import PIPE
 from wal_e.piper import popen_nonblock
 from wal_e.exception import UserException
 
-PSQL_BIN = 'PGOPTIONS="--statement-timeout=0" psql'
+PSQL_BIN = 'psql'
 
 
 class UTC(datetime.tzinfo):
